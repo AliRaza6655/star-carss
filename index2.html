@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"/>
+
+      <link rel="stylesheet" href="https://kit.fontawesome.com/a076d05399.js">
+
+      
+              <link rel="stylesheet" href="style4.css">
+         <title>Hello, world!</title>
+
+   <style>
+
+.hero-section {
+        position: relative;
+        background-image: url('../3/assets//img/img\ 1.jpg');
+        background-position: center;
+        height: 600px;
+        width: 100%;
+    }
+
+    .filter {
+        
+       border: 10px solid rgb(17, 16, 16);
+       border-radius: 40px;
+       margin-bottom: 0px;
+       margin-bottom: 20px;
+
+       
+        position: absolute;
+      bottom: 2px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+      
+        justify-content: space-between; 
+    }
+
+    .form-group select, .form-group input {
+        height: 40px;
+       
+    }
+
+    .form-group{
+        width: 200px;
+        height: 10px;
+      
+    }
+     .btn-signup1{
+        width: 150px;
+        height: 42px;
+       
+        border-radius: 10px;
+     }
+   </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../3/assets/img/Star Cars Logo.png" alt="" width="50%" />
+          </a>
+          
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ">
+              <li class="nav-item dropdown">
+                <a
+                   class="nav-link active dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                   role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"  
+                >
+                  New
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Build And Price</a></li>
+                  <li><a class="dropdown-item" href="#">Deals</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">New Car Listing</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">New EVs</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">New SUVs</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">New Trucks</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">New Vans</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">New Convertibles</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav ">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Used
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Buy Online</a></li>
+                  <li><a class="dropdown-item" href="#">Used Cars Search</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Used Cars Listing</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Used EVS</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Used SUVs</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Used Trucks</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Used Vans</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Used Convertibles</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+
+            <ul class="navbar-nav ">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Electric
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">EV Hub</a></li>
+                  <li><a class="dropdown-item" href="#">New EVs</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Used Evs</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Used Tesla</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">EV Incentive</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Ev Deals</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Best Evs</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Buyer's Guide</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Research
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Car Reviews</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Car Rankings</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Compare Cars</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Car Finder Quiz</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Buying Powerful calculator</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Auto Loan calculator</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Lease a Car</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Electric Vehicle</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Research Center</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <form class="d-flex">
+              <div class="d-grid gap-2 col-3">
+                <button class="btn btn-primary me-2" type="button">
+                  Get Report
+                </button>
+              </div>
+
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success me-2" type="submit">
+                Search
+              </button>
+              <button class="btn btn-outline-success me-2" type="submit">
+                SignUp
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+ 
+
+
+
+    <section  class="hero-section">
+      <div class="container">
+
+          <section class="mainsection">
+              <div class="container">
+
+                
+
+                  <form class="filter ">
+                     
+                      <div class="form-group" >
+                         
+                          <select id="make" name="make" class="form-control" >
+                              <option value="all" class="Filter-customization">Make</option>
+                              <option value="toyota">TOYOTA</option>
+                              <option value="nissan">NISSAN</option>
+                          </select>
+                      </div>
+                        
+
+                      <div class="form-group">
+
+                        
+                         <select id="model-from" name="model-from" class="form-control">
+
+                     
+
+                     <option value="all" class="Filter-customization">Model</option>
+                     <option value="toyota">TOYOTA</option>
+                     <option value="nissan">NISSAN</option> 
+                             
+                         </select>
+
+                     </div>
+
+                      <div class="form-group">
+                          <select id="model-from" name="model-from" class="form-control">
+                              <option value="all">Year(From)</option>
+                              <option value="2023">2023</option>
+                          </select>
+                      </div>
+                      <div class="form-group">
+                          <select id="model-to" name="model-to" class="form-control">
+                              <option value="all">Year(To)</option>
+                              <option value="2023">2023</option>
+                          </select>
+                      </div>
+
+
+
+                      <div>
+                         <a href=""> <button class="btn-signup1">Search</button></a>
+                      </div>
+                      
+                  </form>
+                 </div>
+              </div>
+          </section>
+   
+  </section>
+
+
+
+
+
+
+
+
+    <!-- <section class="hero_image">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="hero_image_content">
+              <img class="w-100" src="assets/img/1.jpg" alt="" />
+
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+ <section class="main-filter-section  py-2 " >
+  <div class="container  border bg-light"   >
+    <form class="row justify-content-center justify-content-md-end">
+      <div class="form-group col-12 col-md-3 mb-2 mb-md-1">
+        <select id="make" name="make" class="form-control">
+          <option value="all">Make</option>
+          <option value="toyota">TOYOTA</option>
+          <option>Audi</option>
+          <option>BMW</option>
+          <option>Toyota</option>
+          <option>honda</option>
+          <option>Lexux</option>
+          <option>Hyundi</option>
+          <option>Nissan</option>
+          <option>Kia</option>
+          <option>Isuzuki</option>
+          <option>Jeep</option>
+           Add more options as needed
+        </select>
+      </div>
+
+      <div class="form-group col-12 col-md-3 mb-2 mb-md-1">
+        <input type="text" placeholder="Model" class="form-control">
+      </div>
+
+      <div class="form-group col-6 col-md-2 mb-2 mb-md-1">
+        <select id="yearFrom" name="yearFrom" class="form-control">
+          <option value="all">Year(From)</option>
+           Add options based on selected make 
+        </select>
+      </div>
+
+      <div class="form-group col-6 col-md-2 mb-2 mb-md-1">
+        <select id="yearTo" name="yearTo" class="form-control">
+          <option value="all">Year(To)</option>
+           Add options based on selected make
+        </select>
+      </div>
+
+      <div class="form-group col-12 col-md-2 text-center">
+
+        <button type="button" class="btn btn-danger ">
+          <img src="../3/assets/img/search icons.png" alt=""> Search
+        </button>
+      </div>
+    </form>
+  </div>
+</section>  -->
+
+
+
+
+
+
+
+
+    <section class="featured_tools">
+        <div class="text-center ">
+            <h2 class="card-title fw-bold mb-4 mt-5">Featured Tools</h2>
+          </div>
+      <div class="container">
+
+        <div class="card text-center">
+
+        <div class="row">
+          <div class="col-12 col-lg-6 mb-3">
+            <div class="card text-center">
+              <img
+                src="../3/assets/img/van 2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title">Fine Your Fit</h3>
+                <p class="card-text">
+                  Not sure what you want? Answer a few question to find what
+                  fits you best.
+                </p>
+                <a href="#" class="btn btn-dark">Start Quiz</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="card text-center">
+              <img
+                src="../3/assets/img/dollar1.jpg"
+                class="card-img-top"
+                alt="..."/>
+
+              <div class="card-body">
+                <h3 class="card-title">Shop By Budget</h3>
+                <p class="card-text">
+                  Affordable, reliable cars for every budget, featuring a range
+                  of models to suit.
+                </p>
+                <a href="#" class="btn btn-dark">See Your Buying Power</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="card text-center">
+              <img
+                src="../3/assets/img/M VIEW.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title">Build And Price</h3>
+                <p class="card-text">
+                  Choose the make model trim and options you want
+                </p>
+                <a href="#" class="btn btn-dark">Build your car</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="card text-center">
+              <img
+                src="../3/assets/img/hand over.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title">Sell and trade</h3>
+                <p class="card-text">
+                  Get an offer in minutes then cash out or trade in.
+                </p>
+                <a href="#" class="btn btn-dark">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+  <!-- why session -->
+
+ 
+
+<section class="whysection-add">
+
+  <div class=" text-center mt-4 bg-dark" style="min-height: 500px; min-width: 100%; padding-top: 35px;">  
+      <div>
+          <h3 class="text-white">Why Star Cars?</h3>
+          <br>
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="card bg-dark text-white">
+                      <img src="../mohsin/1st transparent.png" alt="Card Image" class="mx-auto">
+                      <div class="card-body">
+                          <h5 class="card-title">Transparent pricing</h5>
+                          <p class="card-text">No surprises here. See how <br> much you'll pay on cars <br> you like.</p>
+                         
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card bg-dark text-white">
+                      <img src="../mohsin/2nd-removebg-preview.png" alt="Card Image" class="mx-auto">
+                      <div class="card-body">
+                          <h5 class="card-title">Minutes, not hours</h5>
+                          <p class="card-text">Time saving tools to help you <br> find the right car in a snap.</p>
+                          
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card bg-dark text-white">
+                      <img src="../mohsin/3rd-removebg-preview.png" alt="Card Image" class="mx-auto">
+                      <div class="card-body">
+                          <h5 class="card-title">Shop your way</h5>
+                          <p class="card-text">Your own pace, your own <br> space. Shop online where and <br> when it's convenient for you.</p>
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="mt-4">
+              <button class="btn btn-light" class="btn btn-light btn-lg">Sign Up</button>
+          </div>
+      </div>
+  </div> 
+  </section>
+
+
+
+
+
+
+
+
+            <!-- shop favourit brand -->
+        
+<section>
+
+    <div class="text-center ">
+        <h3 class="card-title fw-bold mb-4 mt-5">Shop your favourite brands</h3>
+      
+
+      <div class="btn-group" role="group " >
+        <button type="button" class="btn btn-primary">New Cars</button>
+        <button type="button" class="btn btn-danger">Used Cars</button>
+       
+      </div>
+    </div>
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-3 mb-3 ">
+                        <div class="card">
+                            <div class="card-body text-center ">
+                                <div class="d-flex justify-content-center align-items-center ">
+                                    <!-- Logo -->
+                                    <img src="../3/assets/img/icons8-toyota-48.png" alt="Logo" style="max-width: 100px;" class="mr-1" >
+                                    <!-- Heading -->
+                                    <h5 class="card-title mb-1 me-5" >Toyota</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="d-flex justify-content-center align-items-center ">
+                                    <!-- Logo -->
+                                    <img src="../3/assets/img/icons-bmw-48.png" alt="Logo" style="max-width: 100px;" class="mr-3">
+                                    <!-- Heading -->
+                                    <h5 class="card-title mb-0">BMW</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3 ">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="d-flex justify-content-center align-items-center ">
+                                    <!-- Logo -->
+                                    <img src="../3/assets/img/icons8-ford-48.png" alt="Logo" style="max-width: 100px;" class="mr-3">
+                                    <!-- Heading -->
+                                    <h5 class="card-title mb-0"> Ford</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 ">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="d-flex justify-content-center align-items-center ">
+                                    <!-- Logo -->
+                                    <img src="../3/assets/img/icons8-honda-48.png" alt="Logo" style="max-width: 100px;" class="mr-3">
+                                    <!-- Heading -->
+                                    <h5 class="card-title mb-0">Honda</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="d-flex justify-content-center align-items-center ">
+                                    <!-- Logo -->
+                                    <img src="../3/assets/img/icons8-audi-48.png" alt="Logo" style="max-width: 100px;" class="mr-3">
+                                    <!-- Heading -->
+                                    <h5 class="card-title mb-0"> Audi</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="d-flex justify-content-center align-items-center ">
+                                    <!-- Logo -->
+                                    <img src="../3/assets/img/icons8-lexus-48.png" alt="Logo" style="max-width: 100px;" class="mr-3">
+                                    <!-- Heading -->
+                                    <h5 class="card-title mb-0"> Lexus</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="d-flex justify-content-center align-items-center ">
+                                    <!-- Logo -->
+                                    <img src="../3/assets/img/icons8-kia-48.png" alt="Logo" style="max-width: 100px;" class="mr-3">
+                                    <!-- Heading -->
+                                    <h5 class="card-title mb-0"> Kia</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="d-flex justify-content-center align-items-center ">
+                                    <!-- Logo -->
+                                    <img src="../3/assets/img/icons8-mercedes-48.png" alt="Logo" style="max-width: 100px;" class="mr-3">
+                                    <!-- Heading -->
+                                    <h5 class="card-title mb-0"> Mercedes</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="d-flex justify-content-center align-items-center ">
+                                    <!-- Logo -->
+                                    <img src="../3/assets/img/icons8-dodge-48.png" alt="Logo" style="max-width: 100px;" class="mr-3">
+                                    <!-- Heading -->
+                                    <h5 class="card-title mb-0"> Dodge</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="d-flex justify-content-center align-items-center ">
+                                    <!-- Logo -->
+                                    <img src="../3/assets/img/icons8-hyundai-48.png" alt="Logo" style="max-width: 100px;" class="mr-3">
+                                    <!-- Heading -->
+                                    <h5 class="card-title mb-0"> Hyundai</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="d-flex justify-content-center align-items-center ">
+                                    <!-- Logo -->
+                                    <img src="../3/assets/img/icons8-gmc-48.png" alt="Logo" style="max-width: 100px;" class="mr-3">
+                                    <!-- Heading -->
+                                    <h5 class="card-title mb-0"> GMC</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="d-flex justify-content-center align-items-center ">
+                                    <!-- Logo -->
+                                    <img src="../3/assets/img/icons8-nissan-48.png" alt="Logo" style="max-width: 100px;" class="mr-3">
+                                    <!-- Heading -->
+                                    <h5 class="card-title mb-0 me-5">Nissan</h5>
+                                   
+                                </div>
+
+                            
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row mt-5">
+                        <div class="col text-center">
+                            <a href="#" class="btn btn-primary btn-lg"> Click For More</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+                     <br><br>
+        <!-- brands by cards -->
+
+        <div class="row row-cols-1 row-cols-md-5 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="../3/assets/img/brand 2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                  <img src="../3/assets/img/brand 2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+
+
+            <div class="col">
+              <div class="card">
+                <img src="../3/assets/img/brand 2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../3/assets/img/brand 2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../3/assets/img/brand 2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         <!-- ask question  -->
+           <section class="AskQuestion btn-lg  bg-dark"    >
+          <div class="container mt-4  col-md-9">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-white  " >Do You Have Question?</h3>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end align-items-center">
+                    <button type="button" class="btn btn-primary btn-lg mb-3">Get In Touch</button>
+
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+           <!-- faq section -->
+              <section>    
+              <h1 class="text-center" class="font-weight-bold">FAQ</h1>
+
+           <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  
+              <strong>  WHAT TYPES OF CARS DO YOU HAVE AVAILABLE? </strong> 
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Our car rental company offers a diverse fleet to meet your needs. We provide compact and economy cars for fuel efficiency, midsize sedans for comfortable travel, SUVs for families or adventure seekers, and luxury vehicles for premium experiences. Our options include both manual and automatic transmissions to accommodate your preferences..</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  
+                  <strong>HOW MUCH DOES IT COST TO RENT A CAR? </strong> 
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Car rental costs vary depending on factors like the car type, rental duration, location, and extras. Generally, prices range from $30 to $100+ per day. Luxury or specialty cars may cost more. Visit our website or contact us for precise pricing tailored to your needs and current promotions..</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                   <strong> ARE THERE ANY ADDITIONAL FEES?</strong>
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Yes, there may be additional fees when renting a car. Common ones include insurance, fuel charges, mileage fees, and airport surcharges. We recommend reviewing the rental agreement carefully to understand all potential costs. Our staff is available to explain any fees and help you choose the best options for your rental..</div>
+              </div>
+
+             
+
+
+        </div>
+        </div>
+        </section>
+
+        <div class="container bg-light">
+          <div class="col-md-12 text-center">
+              <button type="button" class="btn btn-primary">More FAQ</button>
+              <button type="button" class="btn btn-warning">Terms And Condition</button>
+          </div>
+      </div>
+
+        <br>
+
+    <!-- footer -->
+
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-light">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span> <h4> Get Connected With Us On Social Networks:  </h4></span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset" target="_blank">
+          <i class="fab fa-facebook" > <img src="../3/assets/img/facebook icons.png" alt=""> </i>
+        </a>
+
+        <a href="https://wa.me/+96890623000" class="me-4 text-reset" target="_blank">
+          <i class="bi bi-whatsapp"> <img src="../3/assets/img/whatsapp icon.png" alt=""> </i>
+        </a>
+
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"> <img src="../3/assets/img/twitter icons.png" alt=""> </i>
+        </a>
+
+        <a href="https://www.instagram.com/star_cars_auctions/?hl=en" class="me-4 text-reset">
+          <i class="fab fa-instagram"> <img src="../3/assets/img/instagram icons.png" alt="">  </i>
+        </a>
+
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Star Cars
+            </h6>
+            <p>
+              Starcars is one of the leading companies at the national level for importing and sales of a wide variety of automobiles. The list includes Cars, Motorcycles, Boats, Heavy Duty Trucks, Recreational Vehicles, Trailers, ATV and Industrial Equipments of all Top brands in the USA.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Popular Models
+            </h6>
+            <p>
+              <a href="#!" class="text-reset"> Toyota Camry for sale in Oman</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset"> Lexus Es for sale in Oman</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset"> Lexus GS for sale in Oman</a>
+            </p>
+
+            <p>
+              <a href="#!" class="text-reset">Lexus IS for sale in Oman</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> J682+74G, Al Mazoon St, Seeb</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              starcarsheadoffice@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i>+96879900047</p>
+            <p><i class="fas fa-print me-3"></i>+96890623000</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2020 Copyright:
+      <a class="text-reset fw-bold" href="https://starcars.om/">starcars.om</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer end-->
+
+
+  <footer>
+    <button id="scrollToTopBtn">☝️</button>
+  </footer>
+
+
+  <script>
+
+var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+var rootElement = document.documentElement;
+
+function scrollToTop() {
+  // Scroll to top logic
+  rootElement.scrollTo({
+    top: 2,
+    behavior: "smooth"
+  });
+}
+scrollToTopBtn.addEventListener("click", scrollToTop);
+  </script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
